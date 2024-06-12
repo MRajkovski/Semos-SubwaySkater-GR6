@@ -430,6 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504673664}
   - component: {fileID: 504673663}
+  - component: {fileID: 504673665}
   m_Layer: 0
   m_Name: WorldGeneration
   m_TagString: Untagged
@@ -471,6 +472,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &504673665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504673662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671a52e251eb6d14c80b7745225ff5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstChunkSpawnPosition: 10
+  chunksOnScreen: 10
+  despawnDistance: 5
+  chunkPrefab:
+  - {fileID: 1987039844628622959, guid: 59b70d5359dacfe4fa7848c0613fc174, type: 3}
+  - {fileID: 6326782256446955961, guid: 6e303c6d61b77d44c9e1b66c08d710ec, type: 3}
+  cameraTransform: {fileID: 330585546}
 --- !u!1001 &584242123
 PrefabInstance:
   m_ObjectHideFlags: 0
