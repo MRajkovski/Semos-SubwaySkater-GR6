@@ -23,7 +23,6 @@ public class JumpingState : BaseState
         m.z = motor.baseRunSpeed;
 
         return m;
-
     }
     public override void Transition()
     {

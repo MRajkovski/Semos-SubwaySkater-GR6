@@ -32,13 +32,11 @@ public class PlayerMotor : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
 
-
     private void Update()
     {
         if (!isPaused)
         {
             UpdateMotor();
-           // Debug.Log("STATE: "+state.GetType().ToString());
         }
     }
 
